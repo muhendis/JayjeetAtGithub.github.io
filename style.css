@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.main{
+	float: right;
+	width: 75%;
+	margin: auto;
+}
+.side-nav{
+	display: block;
+	text-align: center;
+	float: left;
+	width: 25%;
+	background-color: #3F51B5;
+	height: 100%;
+	position: fixed;
+	box-shadow:  2px 8px 8px #888888;
+}
+.profile-pic{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+.pic-div{
+	text-align: center;
+	margin-top: 50px;
+	
+}
+#name{
+	font-family: 'Arvo', serif;
+	font-size: 35px;
+	color: white;
+}
+.desc{
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 20px;
+	color: white;
+	padding-left:5%;
+	padding-right:5%;
+}
+.top-img{
+	width: 100%;
+	height: 500px;
+}
+span#name{
+	padding-right: 5%;
+	padding-left: 5%;
+}
+.link{
+	width: 100%;
+	height: 30px;
+	display: block;
+	font-size: 20px;
+	padding-top: 10px;
+	color: white;
+	font-family: 'Varela Round', sans-serif;
+	text-decoration: none;
+}
+.link:nth-of-type(2){
+	background-color: #fff;
+	color:#3F51B5;
+}
+.icons a{
+	color: white;
+	padding : 3% 3%;
+	font-size: 30px;
+}
+.heading{
+	font-size: 60px;
+	color: #01579B;
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-weight: bold;
+}
+.main-body{
+	padding-left: 80px;
+	padding-right: 80px;
+}
+#about-text{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+.things p{
+	font-size: 23px;
+	font-style: 'sans-serif';
+	font-weight: 400;
+
+}
+.things p span{
+	font-size: 20px;
+	color: #1A237E;
+}
+.things p{
+	font-family:'Montserrat', sans-serif;
+}
+@media only screen and (max-width: 1000px) {
+
+ .side-nav{
+ 	display: none;
+ }
+ .main{
+ 	width: 100%;
+ 	margin: auto;
+
+ }
+ .main-body{
+	padding-left:4%;
+	padding-right: 4%;
+}
+
+}
