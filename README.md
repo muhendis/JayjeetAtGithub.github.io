@@ -1,2 +1,2 @@
 # JayjeetAtGithub.github.io
-Portfolio Site(under dev)
+Portfolio Site built with HTML, CSS, JS
